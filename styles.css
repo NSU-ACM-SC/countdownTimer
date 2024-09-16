@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body{
+  background-color: rgba(37, 132, 74, 0.802);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.heading{
+  color: rgb(0, 0, 0);
+  font: 40px "Open Sans";
+}
+
+.path--background {
+  fill: rgba(14, 60, 124, 0.97);
+  stroke: #fff;
+  stroke-width: 0px;
+}
+
+.pulse {
+  fill: rgb(255, 74, 74) !important;
+}
+
+.path--foreground {
+  fill: #eee;
+  stroke: #eee;
+  stroke-width: 2px;
+}
+
+.label {
+  font: 90px "Open Sans";
+  font-weight: 900;
+  text-anchor: middle;
+  fill: rgba(14, 60, 124, 0.97);
+}
