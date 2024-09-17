@@ -115,6 +115,11 @@ function destroyTimer() {
     .each("end", function () {
       field.selectAll("path").remove();
     });
+
+  // Redirect to the desired URL when the countdown is complete
+  setTimeout(function () {
+    window.location.href = "https://nsusc.acm.org/";
+  }, 1000);  // 1-second delay after countdown ends before redirecting
 }
 
 function arcTween(b) {

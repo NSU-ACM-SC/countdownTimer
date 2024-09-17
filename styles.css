@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 
-body{
-  background-color: rgba(37, 132, 74, 0.802);
+body {
+  background-color: rgba(36, 84, 139, 0.996);
 }
 
 .container {
@@ -9,16 +9,26 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
-.heading{
-  color: rgb(0, 0, 0);
+.heading {
+  color: rgb(255, 255, 255);
   font: 40px "Open Sans";
 }
 
+img {
+  height: 180px;
+}
+
+.img-div{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
 .path--background {
-  fill: rgba(14, 60, 124, 0.97);
+  fill: rgba(72, 190, 29, 0.97);
   stroke: #fff;
   stroke-width: 0px;
 }
@@ -37,5 +47,5 @@ body{
   font: 90px "Open Sans";
   font-weight: 900;
   text-anchor: middle;
-  fill: rgba(14, 60, 124, 0.97);
+  fill: rgba(72, 190, 29, 0.97);
 }
